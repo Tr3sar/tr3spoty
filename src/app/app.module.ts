@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PlayerModule } from './player/player.module';
-import { SearchModule } from './search/search.module';
+import { PlayerModule } from './pages/player/player.module';
+import { SearchModule } from './pages/search/search.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({

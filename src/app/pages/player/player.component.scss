@@ -1,0 +1,33 @@
+main{
+    margin: 2rem;
+
+    .reproduction-container{
+        text-align: center;
+        img{
+            width: 90%;
+            max-width: 25rem;
+        }
+    }
+
+    .queue-container{
+        margin-top: 3rem;
+        width: 100%;
+        .header{
+            display: flex;
+            align-items: center;
+
+            h4{
+                width: 2.5rem;
+            }
+
+            .button-container{
+                width: calc(100% - 2.5rem);
+                text-align: end;
+
+                button{
+                    margin-right: -1rem;
+                }
+            }
+        }
+    }
+}
